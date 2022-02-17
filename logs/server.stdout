@@ -1,0 +1,18 @@
+2021-05-02T21:50:24.452360643Z >> Reading dataset 'model/data/train.jsonl'...
+2021-05-02T21:50:24.452388942Z >> Lemmatizing targets ...
+2021-05-02T21:50:24.452411428Z >> Number of distinct words:     25660
+2021-05-02T21:50:24.452414161Z >> Building vocabulary with size 25000	(97.43% of the original)
+2021-05-02T21:50:24.452417600Z >> Missing lemmas added, dict now has size 24999.
+2021-05-02T21:50:24.452434054Z >> added UNK token -- vocab size is 25000
+2021-05-02T21:50:24.452436581Z >> Loaded: 400000 embeddings from 'model/embeddings/glove.6B.50d.txt'
+2021-05-02T21:50:24.452438987Z >> Shape of weights matrix W: torch.Size([25000, 50])
+2021-05-02T21:50:24.452441287Z >> 1088 words from my vocab were not present in the embedding (random vector created)
+2021-05-02T21:50:24.452443670Z >> LSTM   layer   shape (50, 100)
+2021-05-02T21:50:24.452445872Z >> Hidden layer 1 shape (100, 100)
+2021-05-02T21:50:24.452448170Z >> Hidden layer 2 shape (100, 50)
+2021-05-02T21:50:24.452450588Z >> Output layer   shape (50, 1)
+2021-05-02T21:50:24.452471939Z  * Serving Flask app "app" (lazy loading)
+2021-05-02T21:50:24.452474361Z  * Environment: production
+2021-05-02T21:50:24.452476673Z    WARNING: This is a development server. Do not use it in a production deployment.
+2021-05-02T21:50:24.452479834Z    Use a production WSGI server instead.
+2021-05-02T21:50:24.452482193Z  * Debug mode: off
